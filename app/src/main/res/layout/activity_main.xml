@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+<include
+    android:id="@+id/toolBar"
+    layout="@layout/tool_bar"/>
 <FrameLayout
     android:id="@+id/framagmet"
     android:layout_width="match_parent"
