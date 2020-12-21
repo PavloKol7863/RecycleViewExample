@@ -28,8 +28,9 @@ public class FragmentRecycle extends Fragment {
         rv.setLayoutManager(layoutManager);
 
         dishArrayList = new ArrayList<>();
-        dishArrayList.add(new Dish("Американо","28 грн.",R.drawable.cofe));
-        dishArrayList.add(new Dish("Тайська яловичина з базиліком","136 грн.",R.drawable.taiska_yalovich));
+        dishArrayList.add(new Dish("Американо","28 грн","250 мл",R.drawable.cofe));
+        dishArrayList.add(new Dish("Лате","27 грн","250 мл", R.drawable.latte));
+        dishArrayList.add(new Dish("Тайська яловичина з базиліком","136 грн","500 гр",R.drawable.taiska_yalovich));
 
         adapterDish = new AdapterDish(dishArrayList);
         rv.setAdapter(adapterDish);
