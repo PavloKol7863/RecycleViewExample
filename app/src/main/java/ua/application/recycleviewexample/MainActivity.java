@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     FragmentTransaction ft;
     FragmentRecycle fragmentRecycle;
     FragmentLogin fragmentLogin;
-
+    FragmentCreateAccount fragmentCreateAccount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +23,11 @@ public class MainActivity extends AppCompatActivity {
             ft = getSupportFragmentManager().beginTransaction();
           //  fragmentRecycle = new FragmentRecycle();
 
-           fragmentLogin = new FragmentLogin();
+           //fragmentLogin = new FragmentLogin();
 
-            ft.replace(R.id.framagmet,fragmentLogin);
+            fragmentCreateAccount = new FragmentCreateAccount();
+
+            ft.replace(R.id.framagmet,fragmentCreateAccount);
 
             ft.commit();
         }

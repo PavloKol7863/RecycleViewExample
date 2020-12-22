@@ -10,8 +10,8 @@
         android:endColor="@color/button_two"/>
     <padding
         android:bottom="10dp"
-        android:left="130dp"
-        android:right="130dp"
+        android:left="60dp"
+        android:right="60dp"
         android:top="10dp" />
     
 </shape>
