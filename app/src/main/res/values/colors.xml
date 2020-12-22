@@ -8,6 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#FF2196F3</color>
-    <color name="background_card">#071922</color>
+    <color name="background_card">#1B262C</color>
     <color name="gray">#BDBABA</color>
+    <color name="icon_one">#0B4A74</color>
+    <color name="icon_two">#3282B8</color>
+    <color name="button_one"> #0F4C75</color>
+    <color name="button_two"> #2CAA73</color>
 </resources>

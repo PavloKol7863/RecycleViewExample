@@ -2,4 +2,12 @@
     <string name="app_name">RecycleViewExample</string>
     <string name="label_home">Головне меню</string>
     <string name="button_text">Детальніше</string>
+    <string name="title_login">Welcome back</string>
+    <string name="bottom_title_login">Sign to continue</string>
+    <string name="email_label">Email</string>
+    <string name="pasword_label">Password</string>
+    <string name="bottom_pasword_label">Forgot password?</string>
+    <string name="button_login">LOGIN</string>
+    <string name="bottom_login">Don`t have an acount?</string>
+    <string name="right_bottom_login">Sing up</string>
 </resources>
