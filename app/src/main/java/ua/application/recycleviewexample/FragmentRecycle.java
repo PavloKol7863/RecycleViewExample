@@ -1,5 +1,7 @@
 package ua.application.recycleviewexample;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,11 +18,14 @@ public class FragmentRecycle extends Fragment {
     RecyclerView rv;
     LinearLayoutManager layoutManager;
     AdapterDish adapterDish;
-
+    Toolbar toolbar;
     ArrayList<Dish> dishArrayList;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState){
         View v = inflater.inflate(R.layout.fragment_recycle, parent, false);
+
+        toolbar = (Toolbar)v.findViewById(R.id.toolBar);
+        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
 
         rv = (RecyclerView)v.findViewById(R.id.recycleViewCard);
 
