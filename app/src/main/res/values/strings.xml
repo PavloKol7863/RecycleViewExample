@@ -18,4 +18,11 @@
     <string name="button_create_acount">CREATE ACCOUNT</string>
     <string name="bottom_button_account">Already have a account?</string>
     <string name="right_bottom_account">Login</string>
+    <string name = "drawer_title">Adaptive menu</string>
+    <string name="drawer_menu">Меню</string>
+    <string name="drawer_cart">Корзина</string>
+    <string name="drawer_acount">Мій аккаунт</string>
+    <string name="drawer_info">Про нас</string>
+    <string name="drawer_settings">Налаштування</string>
+    <string name="drawer_exit">Вихід</string>
 </resources>
