@@ -74,10 +74,11 @@
                 app:layout_constraintTop_toBottomOf="@+id/line_layout" />
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/cartButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:onClick="onClick"
                 android:background="@drawable/roudered_button"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -90,7 +91,7 @@
                 android:layout_margin="30dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton"
+                app:layout_constraintTop_toBottomOf="@+id/cartButton"
                 android:background="@color/gray"
                 tools:ignore="MissingConstraints" />
         </androidx.constraintlayout.widget.ConstraintLayout>
